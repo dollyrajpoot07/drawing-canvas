@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fafafa;
+}
+
+.toolbar {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #005bb5;
+}
+
+.canvas {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  height: 400px;
+  background-color: white;
+}
